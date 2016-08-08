@@ -17,7 +17,7 @@
 %\RequirePackage[l2tabu,orthodox]{nag} % This package helps prevent you from doing things wrong.
 
 % change masters to bachelors if necessary
-\documentclass[masters,university,a4paper]{chalmers-thesis}
+\documentclass[masters,a4paper]{chalmers-thesis}
 % All options are; doctorate, licentiate, masters, bachelors, techreport, projectreport, nocover, draft, g5paper,
 % and everything the standard report class support.
 \usepackage{ifluatex} % Automatic check for luatex.
@@ -34,9 +34,11 @@
 % More or less required packages
 \usepackage{csquotes} % Needed for biblatex
 % Biblatex allows you to choose backend, either the old "bibtex", or the new "biber".
-\usepackage[firstinits=true, style=alphabetic, backend=biber]{biblatex} % Modern bibliography facilities (you may change style to numeric)
+\usepackage[giveninits=true, style=numeric, backend=biber]{biblatex} % Modern bibliography facilities (you may change style to alphabetic)
 \usepackage{mathtools} % All your math related needs
 \usepackage{tikz} % Draw figures. Required for cover page
+\usepackage{caption}
+\usepackage{subcaption}
 
 % Read the manuals for the respective package to see the usage;
 %\usepackage{pdfpages} % For included other pdf files (like articles).
@@ -57,9 +59,9 @@
 \author{Some Author\and Other Author}
 \thesisin{Applied Mechanics}
 \department{Department of Applied Mechanics}
-\division{Division of Solid Mechanics}
-\reportno{2011:01}
-\copyrightyear{2011}
+\division{Material and Computational Mechanics}
+\reportno{2016:01}
+\copyrightyear{2016}
 
 % You should scale the figure according to textwidth and or paperheight.
 \coverfigure{\includegraphics[width=\textwidth,height=0.4\paperheight,keepaspectratio]{figures/ExampleCover}}

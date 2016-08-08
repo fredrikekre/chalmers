@@ -194,12 +194,12 @@
   }{\ClassWarning{chalmers-thesis}{Package 'biblatex' strongly recommended}}
 
  % Figure captions
- \@ifpackageloaded{subfig}{
-  \captionsetup[subfigure]{textfont=it}
- }{\ClassWarning{chalmers-thesis}{Package 'subfig' strongly recommended}}
+ \@ifpackageloaded{subcaption}{
+  \captionsetup[sub]{textfont=it}
+ }{\ClassWarning{chalmers-thesis}{Package 'subcaption' strongly recommended}}
 
  \@ifpackageloaded{caption}{
-  \captionsetup[figure]{textfont=it}
+  \captionsetup[figure,table]{textfont=it}
  }{\ClassWarning{chalmers-thesis}{Package 'caption' required}}
 
 

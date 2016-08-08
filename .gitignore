@@ -21,4 +21,6 @@
 *-blx.bib
 *.bcf
 *.top
+*.fdb_latexmk
+*.fls
 *.topub
